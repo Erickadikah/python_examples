@@ -1,2 +1,3 @@
-name = input("Enter your name:")
-input("Hello! how are you? " + name)
+name = "erick adikah"
+age = 22
+print("Hello %s are you %d years old" % (name, age))
