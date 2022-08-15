@@ -7,3 +7,12 @@ while num != 0:
     print("sum = ", sum)
 else:
     print("finished sum")
+
+
+i = 0
+
+while i < 5:
+    print("the value of i is : ", i)
+    i += 1  # = i + 1
+else:
+    print("finished while loop")
