@@ -1,5 +1,13 @@
-name = "Roger"
+a = [0, 1, 2, 3, 4, 5]
+for x in a:
+    if x == 5:
+        continue
+    print(x)
 
-
-def hello(name):
-    print('hello' + name + '!')
+print('-----------------------------------------')
+i = 0
+while i < 5:
+    i += 1
+       if i == 2:
+            continue
+        print(i)
