@@ -1,30 +1,34 @@
-from turtle import width
+class Polygon:
+    __width = None
+    __height = None
 
 
-class Rectangle:
-    def __init__(self, height, width):
-        self.__height = height
-        self.__width = width
+def set_values(self, width, height):
+    self.__width = width
+    self.__height = height
 
-    def set_height(self, height):
-        self.__height = height
 
-    def get_height(self):
-        return self.__height
+def get_with(self):
+    return self.__width
 
-    def set_width(self, width):
-        self.__width = width
 
-    def get_width(self):
-        return self.__width
+def get_height(self):
+    return self.__height
 
+
+class Rectangle(Polygon):
     def area(self):
-        return self.__height * self.__width
+        return self.get_width() * self.get_height()
 
 
-rect1 = Rectangle(20, 60)
-rect2 = Rectangle(50, 40)
+class Triangle(Polygon):
+    def area(self):
+        return self.get_width() * self.get_height() / 2
 
 
-print(rect1.area())
-print(rect2.area())
+rect = Rectangle()
+tri = Triangle()
+Rect.set_values(50, 40)
+tri.set_values(50, 40)
+print(rect.area())
+print(tri.area())
