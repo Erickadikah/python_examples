@@ -3,11 +3,11 @@ class Car:
         self.__speed = speed
         self.__color = color
 
-    def set_color(self, value):
+    def set_speed(self, value):
         self.__color = value
 
-    def get_color(self):
-        return self.__color
+    def get_speed(self):
+        return self.__speed
 
 
 ford = Car(200, 'red')

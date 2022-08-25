@@ -12,6 +12,5 @@ return choices
 choices = get_choices()
 print(choices)
 
-
 food = ["pizza", "carrot", "eggs"]
 dinner = random.choice(food)

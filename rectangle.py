@@ -28,7 +28,7 @@ class Triangle(Polygon):
 
 rect = Rectangle()
 tri = Triangle()
-Rect.set_values(50, 40)
+rect.set_values(50, 40)
 tri.set_values(50, 40)
 print(rect.area())
 print(tri.area())
