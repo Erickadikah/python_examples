@@ -1,0 +1,42 @@
+{
+  "states":[
+    {
+      "name": "albama",
+      "abbreviation": "AL",
+      "area_codes": [
+        "205",
+        "251",
+        "256",
+        "334",
+        "938"
+      ]
+    },
+    {
+      "name": "Alaska",
+      "abbreviation": "AK",
+      "area_codes": [
+        "907"
+      ]
+    },
+    {
+      "name": "Arizona",
+      "abbreviatin": "AZ",
+      "area_codes": [
+        "480",
+        "520",
+        "602",
+        "623",
+        "928"
+      ]
+    },
+    {
+      "name": "Arkansas",
+      "abbreviatin": "AR",
+      "area_codes": [
+        "456",
+        "567",
+        "789",
+        "789"
+      ]
+    }
+}
