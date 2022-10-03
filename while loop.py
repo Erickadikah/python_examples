@@ -1,18 +1,30 @@
-num = 1
-sum = 0
-print("enter a number. please eneter zero(0) to exit")
-while num != 0:
-    num = float(input("number?"))
-    sum = sum + num
-    print("sum = ", sum)
-else:
-    print("finished sum")
+class Student:
+    def __init__(self, name, age):
+        # private member
+        self.name = name
+        self.age = age
 
+    # getter method
+    def get_age(self):
+        return self.__age
 
-i = 0
+    # setter method
+    def set_age(self, age):
+        self.__age = age
 
-while i < 5:
-    print("the value of i is : ", i)
-    i += 1  # = i + 1
-else:
-    print("finished while loop")
+stud = Student('Jessa', 14)
+
+# retrieving age using getter
+print('Name:', stud.name, stud.get_age())
+
+# changing age using setter
+stud.set_age(16)
+
+# retrieving age using getter
+print('Name:', stud.name, stud.get_age())
+
+stud.name = "Jessica"
+print(stud.name)
+stud.__age = 15
+print(stud.__age)
+

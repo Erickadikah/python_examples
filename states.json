@@ -20,7 +20,7 @@
     },
     {
       "name": "Arizona",
-      "abbreviatin": "AZ",
+      "abbreviation": "AZ",
       "area_codes": [
         "480",
         "520",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Arkansas",
-      "abbreviatin": "AR",
+      "abbreviation": "AR",
       "area_codes": [
         "456",
         "567",
